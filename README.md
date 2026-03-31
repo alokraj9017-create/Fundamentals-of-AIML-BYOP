@@ -1,30 +1,30 @@
-# Laptop Price Predictor (BYOP)
+# 💻 AI Laptop Price Predictor 🚀
+
 ### Course: CSA2001 - Fundamentals of AI and ML
-**Author:** Alok Raj
-**University:** VIT Bhopal
+**Author:** Alok Raj  
+**Registration Number:** 25BCE11089  
+**University:** VIT Bhopal  
+**Deadline:** March 31, 2026
+
 ---
 
 ## 📌 Project Overview
-This project is a Capstone **Bring Your Own Project (BYOP)** designed to solve a real-world valuation problem using Machine Learning. It uses a **Supervised Learning** approach to predict the market price of a laptop based on its hardware specifications.
-
-The goal is to provide a rational, data-driven estimate for consumers, moving beyond simple intuition to **Statistical Decision Theory**.
+This project is a **Bring Your Own Project (BYOP)** capstone activity. It features an interactive **Supervised Learning** agent that predicts the market price of a laptop based on its hardware specifications. Beyond simple prediction, the tool analyzes **Feature Importance** to show which hardware component (RAM, CPU, or SSD) influences the price most significantly.
 
 ## 🎯 Syllabus Alignment
-This project directly implements the following Course Outcomes (COs) and topics from the CSA2001 syllabus:
-* **CO4 & CO5:** Analyzing and designing a solution for a real-world problem using AI techniques.
-* **Linear Regression:** Utilizing continuous variable prediction as outlined in the Machine Learning basics module.
-* **Data Representation:** Converting hardware specs (RAM, CPU, SSD) into a feature matrix ($X$) and target vector ($y$).
-* **Validation:** Splitting data into Training and Validation sets to monitor for **Overfitting and Underfitting**.
+This implementation directly addresses the following Course Outcomes (COs) from the CSA2001 syllabus:
+* **CO4 & CO5:** Designing and applying ML algorithms to solve real-world problems.
+* **Linear Regression:** Implements a continuous variable estimator using the Ordinary Least Squares method.
+* **Data Representation:** Utilizes `pandas` DataFrames to manage feature matrices and target vectors.
+* **Statistical Decision Theory:** Includes logic to categorize laptops into **Budget**, **Mid-range**, or **High-end** tiers based on predicted values.
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Stack
 * **Language:** Python 3.x
-* **Libraries:** * `Pandas`: For data manipulation and representation.
-    * `NumPy`: For numerical operations and matrix handling.
-    * `Scikit-Learn`: For implementing the Linear Regression estimator and evaluation metrics.
+* **Libraries:**
+    * `scikit-learn`: For the Linear Regression model, data splitting, and performance metrics (MAE, R2 Score).
+    * `pandas`: For structured data manipulation.
 
-## 🚀 Setup and Usage
-
-### 1. Prerequisites
-Ensure you have Python installed. You can install the required libraries using pip:
-```bash
-pip install pandas numpy scikit-learn
+## 🚀 How to Run
+1. Ensure you have the required libraries installed:
+   ```bash
+   pip install pandas scikit-learn
